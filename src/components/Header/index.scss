@@ -1,0 +1,41 @@
+.Header {
+    @apply w-full py-2 bg-white shadow-lg flex justify-around items-center;
+
+    h3 {
+        color: #063255;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+
+    ul {
+        @apply flex justify-center items-center gap-3;
+
+        li {
+            a {
+                color: #394149;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px; /* 150% */
+                text-transform: capitalize;
+            }
+
+            button {
+                color: #F58A07;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 106.5%; /* 17.04px */
+                background: rgba(245, 138, 7, 0.10);
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                @apply rounded-md;
+            }
+        }
+    }
+}
